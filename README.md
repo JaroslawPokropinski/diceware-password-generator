@@ -1,4 +1,4 @@
-# system
+# Diceware password generator
 Natural Language Passwords database for password generation.
 
 To create a password, roll four dice and select the corresponding word from the adjectives list.
@@ -7,3 +7,10 @@ Repeat, depending on whether you want a two, four, or six word password.
 A four word password provides 46.5 bits of entropy.
 
 For example, your password could be:  soapy weapons brisk blade
+
+# Usage
+This fork allows to generate passwords by only executing python script.
+```
+pip install -r requirements.txt
+python main.py
+```
