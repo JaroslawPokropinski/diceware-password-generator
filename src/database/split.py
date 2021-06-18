@@ -2,6 +2,7 @@ import PyPDF2
 import re
 import random
 from io import BufferedReader
+import json
 
 
 def getWords(file: BufferedReader):
@@ -27,9 +28,8 @@ if __name__ == '__main__':
     adjs = getWords(adjsPdf)
     nouns = getWords(nounsPdf)
 
-    print('{} {} {} {}'.format(
-        random.choice(adjs),
-        random.choice(nouns),
-        random.choice(adjs),
-        random.choice(nouns),
-    ))
+    with open('adjectives.json', 'wb') as writer:
+        writer.write(json.dumps(adjs).encode('utf-8'))
+
+    with open('nouns.json', 'wb') as writer:
+        writer.write(json.dumps(nouns).encode('utf-8'))
