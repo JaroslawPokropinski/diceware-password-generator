@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/diceware-password-generator/static/css/main.e6f1d380.chunk.css",
+    "main.js": "/diceware-password-generator/static/js/main.dd2e5a2f.chunk.js",
+    "main.js.map": "/diceware-password-generator/static/js/main.dd2e5a2f.chunk.js.map",
+    "runtime-main.js": "/diceware-password-generator/static/js/runtime-main.9eeb362e.js",
+    "runtime-main.js.map": "/diceware-password-generator/static/js/runtime-main.9eeb362e.js.map",
+    "static/js/2.10082b04.chunk.js": "/diceware-password-generator/static/js/2.10082b04.chunk.js",
+    "static/js/2.10082b04.chunk.js.map": "/diceware-password-generator/static/js/2.10082b04.chunk.js.map",
+    "static/js/3.55ffbe67.chunk.js": "/diceware-password-generator/static/js/3.55ffbe67.chunk.js",
+    "static/js/3.55ffbe67.chunk.js.map": "/diceware-password-generator/static/js/3.55ffbe67.chunk.js.map",
+    "index.html": "/diceware-password-generator/index.html",
+    "static/css/main.e6f1d380.chunk.css.map": "/diceware-password-generator/static/css/main.e6f1d380.chunk.css.map",
+    "static/js/2.10082b04.chunk.js.LICENSE.txt": "/diceware-password-generator/static/js/2.10082b04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eeb362e.js",
+    "static/js/2.10082b04.chunk.js",
+    "static/css/main.e6f1d380.chunk.css",
+    "static/js/main.dd2e5a2f.chunk.js"
+  ]
+}
