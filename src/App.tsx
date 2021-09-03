@@ -38,6 +38,10 @@ function App() {
     setWords((words) => pickWords(words.length));
   }, [setWords]);
 
+  const copyWords = useCallback(() => {
+    navigator.clipboard.writeText(words.join(' '));
+  }, [words]);
+
   return (
     <div className="app">
       <div className="word-block">
@@ -48,10 +52,10 @@ function App() {
         ))}
       </div>
       <div className="button-block">
-        <img src={addIcon} onClick={addWord} />
-        <img src={removeIcon} onClick={removeWord} />
-        <img src={refreshIcon} onClick={reloadWords} />
-        <img src={assignmentIcon} />
+        <img src={addIcon} alt="Add word" onClick={addWord} />
+        <img src={removeIcon} alt="Remove word" onClick={removeWord} />
+        <img src={refreshIcon} alt="Reroll words" onClick={reloadWords} />
+        <img src={assignmentIcon} alt="Copy to clipboard" onClick={copyWords} />
       </div>
     </div>
   );
